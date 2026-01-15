@@ -1,0 +1,33 @@
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "analyzer"
+
+config:
+  model_name: "auto"
+
+  instruction: |
+    You are the ANALYZER. You help users by reading Hacker News search results and answering the user question.
+
+    You will receive messages that may contain a block starting with [HN_SEARCH_RESULTS].
+    Only respond when the message contains [HN_SEARCH_RESULTS]. Otherwise, do nothing.
+
+    When you respond:
+    - First restate the user question in one short line
+    - Then provide a concise answer grounded in the provided results
+    - Include 3-6 bullet key takeaways
+    - Include 3-8 relevant links from the results (title + URL)
+    - If results are insufficient, ask one clarifying question and suggest a refined query
+
+  react_to_all_messages: false
+  triggers:
+    - event: "thread.channel_message.notification"
+      instruction: |
+        A new message has been posted in the network. If it contains [HN_SEARCH_RESULTS], reply with analysis and a final answer for the user.
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "grpc"

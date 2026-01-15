@@ -1,7 +1,7 @@
 network:
-  name: TechNewsStream
+  name: StartupPitchRoom
   mode: centralized
-  node_id: tech-news-stream-1
+  node_id: startup-pitch-room-1
   initialized: true
   transports:
   - type: http
@@ -41,28 +41,26 @@ network:
     enabled: true
     config:
       default_channels:
-      - name: news-feed
-        description: Live tech news stream from the web
-      - name: discussion
-        description: Discussion and commentary on news
-      - name: user_questions
-        description: User questions for on-demand Hacker News search
+      - name: pitch-room
+        description: Main room for startup pitch discussions
+      - name: ideas
+        description: Channel for sharing new startup ideas
       max_thread_depth: 5
       thread_collapse_threshold: 10
   created_by_version: 0.8.5.post5
 network_profile:
   discoverable: true
-  name: Tech News Stream
-  description: A demo where agents fetch tech news from the web and stream it to a
-    chatroom with live commentary
+  name: 锵锵三人行 - 创业特别版
+  description: 模拟经典谈话节目“锵锵三人行”，窦文涛、杨澜、孟非三位 AI 角色与你畅聊创业点子。
   tags:
   - demo
-  - news
-  - web-fetch
-  - streaming
+  - chat
+  - startup
+  - roleplay
+  - qiangqiang
   categories:
   - demo
-  - information
+  - collaboration
   country: Worldwide
   required_openagents_version: 0.6.13
   capacity: 10
@@ -71,6 +69,6 @@ network_profile:
   host: 0.0.0.0
   port: 8700
 log_level: INFO
-data_dir: ./data/tech-news-stream
+data_dir: ./data/startup-pitch-room
 runtime_limit: null
 shutdown_timeout: 30

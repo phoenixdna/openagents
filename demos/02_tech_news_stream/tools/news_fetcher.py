@@ -208,3 +208,51 @@ def fetch_url_content(url: str, max_length: int = 5000) -> str:
 
     except Exception as e:
         return f"Error fetching URL: {str(e)}"
+
+
+def search_hackernews(query: str, count: int = 5) -> str:
+    try:
+        query = (query or "").strip()
+        if not query:
+            return "Error searching Hacker News: empty query"
+
+        count = min(max(1, count), 10)
+
+        response = requests.get(
+            "https://hn.algolia.com/api/v1/search",
+            params={
+                "query": query,
+                "tags": "story",
+                "hitsPerPage": count,
+            },
+            timeout=10,
+        )
+        response.raise_for_status()
+        data = response.json() or {}
+        hits = data.get("hits") or []
+        if not hits:
+            return f"No results for: {query}"
+
+        result = f"🔎 Hacker News search: {query} (top {min(len(hits), count)})\n\n"
+        for i, hit in enumerate(hits[:count], 1):
+            title = hit.get("title") or "Untitled"
+            url = hit.get("url") or hit.get("story_url") or ""
+            if not url:
+                object_id = hit.get("objectID")
+                if object_id:
+                    url = f"https://news.ycombinator.com/item?id={object_id}"
+            points = hit.get("points", 0) or 0
+            author = hit.get("author") or "unknown"
+            comments = hit.get("num_comments", 0) or 0
+            created_at = hit.get("created_at") or ""
+
+            result += f"{i}. **{title}**\n"
+            result += f"   🔗 {url}\n"
+            meta_parts = [f"⬆️ {points} points", f"💬 {comments} comments", f"👤 {author}"]
+            if created_at:
+                meta_parts.append(f"🕒 {created_at}")
+            result += f"   " + " | ".join(meta_parts) + "\n\n"
+
+        return result
+    except Exception as e:
+        return f"Error searching Hacker News: {str(e)}"

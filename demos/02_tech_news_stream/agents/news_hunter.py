@@ -162,7 +162,7 @@ async def main():
     parser.add_argument("--interval", type=int, default=60, help="Fetch interval in seconds")
     args = parser.parse_args()
 
-    agent = NewsHunterAgent(fetch_interval=args.interval)
+    agent = NewsHunterAgent(fetch_interval=args.interval, mod_names = ["openagents.mods.workspace.messaging"])
 
     try:
         await agent.async_start(
