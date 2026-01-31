@@ -1,0 +1,670 @@
+2026-01-31 01:02:27,469 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: BrightNode2303, dest: ai_player_4
+2026-01-31 01:02:27,470 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,472 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '开始游戏'
+2026-01-31 01:02:27,473 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ✅ 收到频道通知 - 频道: werewolf-game, 发送者: BrightNode2303, 内容: 开始游戏...
+2026-01-31 01:02:27,474 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🗑️ 清空频道 werewolf-game 的历史消息
+2026-01-31 01:02:27,475 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 3290dc74-064d-4a9a-b259-9c17373fe023|thread.channel.clear
+2026-01-31 01:02:27,475 - openagents.mods.workspace.messaging.mod - INFO - [THREAD MESSAGING] 🗑️ Clearing all messages from channel: werewolf-game
+2026-01-31 01:02:27,480 - openagents.mods.workspace.messaging.mod - INFO - [THREAD MESSAGING] ✅ Cleared 43 messages from channel: werewolf-game
+2026-01-31 01:02:27,482 - openagents.core.event_processor - ERROR - Error in mod openagents.mods.workspace.messaging.process_event: 'AgentNetwork' object has no attribute 'broadcast'
+2026-01-31 01:02:27,483 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 公开消息到 werewolf-game: 🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━...
+2026-01-31 01:02:27,524 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 7da42c03-0d02-47ee-a9db-3ff222ff2fe1|thread.channel_message.post
+2026-01-31 01:02:27,524 - openagents.mods.workspace.messaging.mod - INFO - Channel werewolf-game has agents: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:27,526 - openagents.mods.workspace.messaging.mod - INFO - Message sender: werewolf_host
+2026-01-31 01:02:27,527 - openagents.mods.workspace.messaging.mod - INFO - Agents to notify: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:27,528 - openagents.mods.workspace.messaging.mod - INFO - Broadcasting channel message to 6 agents in werewolf-game: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:27,530 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_4
+2026-01-31 01:02:27,531 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_4
+2026-01-31 01:02:27,532 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **狼人杀游戏房间已重置**\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '7da42c03-0d02-47ee-a9db-3ff222ff2fe1'}
+2026-01-31 01:02:27,535 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 781ddafd-d509-4ace-ace0-7dc2e4a845bb|thread.channel_message.notification
+2026-01-31 01:02:27,535 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_4
+2026-01-31 01:02:27,536 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,537 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,539 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,540 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:27,541 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:27,542 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:27,543 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **狼人杀游戏房间已重置**\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '7da42c03-0d02-47ee-a9db-3ff222ff2fe1'}
+2026-01-31 01:02:27,545 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: f1a03eb7-efcf-40c2-a76f-d919f8f2544a|thread.channel_message.notification
+2026-01-31 01:02:27,545 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_1
+2026-01-31 01:02:27,598 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,600 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,601 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,602 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:27,603 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:27,603 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:27,604 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **狼人杀游戏房间已重置**\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '7da42c03-0d02-47ee-a9db-3ff222ff2fe1'}
+2026-01-31 01:02:27,607 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 65d6af1b-89cf-4924-9150-8bc8bdbbbc7c|thread.channel_message.notification
+2026-01-31 01:02:27,607 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_5
+2026-01-31 01:02:27,639 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,641 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,642 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,643 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:27,644 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:27,645 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:27,646 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **狼人杀游戏房间已重置**\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '7da42c03-0d02-47ee-a9db-3ff222ff2fe1'}
+2026-01-31 01:02:27,648 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 01adf4a3-3a8e-4c01-8be7-1371d875d2b7|thread.channel_message.notification
+2026-01-31 01:02:27,648 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_2
+2026-01-31 01:02:27,649 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,651 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,652 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,653 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:27,654 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:27,655 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:27,705 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **狼人杀游戏房间已重置**\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '7da42c03-0d02-47ee-a9db-3ff222ff2fe1'}
+2026-01-31 01:02:27,708 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 64801371-d943-407d-85a0-845272bc2295|thread.channel_message.notification
+2026-01-31 01:02:27,708 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_3
+2026-01-31 01:02:27,709 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,710 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,712 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,712 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:27,713 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: BrightNode2303
+2026-01-31 01:02:27,714 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: BrightNode2303
+2026-01-31 01:02:27,715 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **狼人杀游戏房间已重置**\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '7da42c03-0d02-47ee-a9db-3ff222ff2fe1'}
+2026-01-31 01:02:27,754 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 87afdf74-a5fe-4a1e-bf28-f2887f068f9e|thread.channel_message.notification
+2026-01-31 01:02:27,754 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: BrightNode2303
+2026-01-31 01:02:27,756 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,757 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **狼人杀游戏房间已重置**
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,758 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,759 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent BrightNode2303
+2026-01-31 01:02:27,760 - openagents.mods.games.werewolf.game_state - INFO - Player 玩家 joined game channel_werewolf-game (1/6)
+2026-01-31 01:02:27,761 - openagents.mods.games.werewolf.game_state - INFO - Player AI-张三 joined game channel_werewolf-game (2/6)
+2026-01-31 01:02:27,762 - openagents.mods.games.werewolf.game_state - INFO - Player AI-李四 joined game channel_werewolf-game (3/6)
+2026-01-31 01:02:27,764 - openagents.mods.games.werewolf.game_state - INFO - Player AI-王五 joined game channel_werewolf-game (4/6)
+2026-01-31 01:02:27,781 - openagents.mods.games.werewolf.game_state - INFO - Player AI-赵六 joined game channel_werewolf-game (5/6)
+2026-01-31 01:02:27,782 - openagents.mods.games.werewolf.game_state - INFO - Player AI-钱七 joined game channel_werewolf-game (6/6)
+2026-01-31 01:02:27,783 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 公开消息到 werewolf-game: 🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三,...
+2026-01-31 01:02:27,785 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 06914734-b615-4b61-87cf-cfdd573ad28d|thread.channel_message.post
+2026-01-31 01:02:27,785 - openagents.mods.workspace.messaging.mod - INFO - Channel werewolf-game has agents: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:27,787 - openagents.mods.workspace.messaging.mod - INFO - Message sender: werewolf_host
+2026-01-31 01:02:27,787 - openagents.mods.workspace.messaging.mod - INFO - Agents to notify: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:27,789 - openagents.mods.workspace.messaging.mod - INFO - Broadcasting channel message to 6 agents in werewolf-game: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:27,790 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_4
+2026-01-31 01:02:27,791 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_4
+2026-01-31 01:02:27,792 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **游戏开始！**\n\n共有 **6** 名玩家参与\n👤 您: 玩家\n🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n\n🎲 正在分配角色...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '06914734-b615-4b61-87cf-cfdd573ad28d'}
+2026-01-31 01:02:27,828 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 1dd6cc4d-dc6b-4060-bce3-3b826c0c451d|thread.channel_message.notification
+2026-01-31 01:02:27,828 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_4
+2026-01-31 01:02:27,829 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,830 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+
+🎲 正在分配角色...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,832 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,833 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:27,834 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:27,835 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:27,835 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **游戏开始！**\n\n共有 **6** 名玩家参与\n👤 您: 玩家\n🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n\n🎲 正在分配角色...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '06914734-b615-4b61-87cf-cfdd573ad28d'}
+2026-01-31 01:02:27,838 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 51a974a1-4316-4eef-a1e4-35caf9958c30|thread.channel_message.notification
+2026-01-31 01:02:27,838 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_1
+2026-01-31 01:02:27,839 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,840 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+
+🎲 正在分配角色...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,903 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,904 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:27,905 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:27,906 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:27,906 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **游戏开始！**\n\n共有 **6** 名玩家参与\n👤 您: 玩家\n🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n\n🎲 正在分配角色...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '06914734-b615-4b61-87cf-cfdd573ad28d'}
+2026-01-31 01:02:27,909 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 20e726ec-a03f-40db-a015-380c9e853b4e|thread.channel_message.notification
+2026-01-31 01:02:27,909 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_5
+2026-01-31 01:02:27,910 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:27,911 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+
+🎲 正在分配角色...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:27,914 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:27,915 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:27,915 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:27,916 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:27,917 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **游戏开始！**\n\n共有 **6** 名玩家参与\n👤 您: 玩家\n🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n\n🎲 正在分配角色...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '06914734-b615-4b61-87cf-cfdd573ad28d'}
+2026-01-31 01:02:27,997 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 9f1283f1-bcc5-4e05-8540-5e1ef1dfc701|thread.channel_message.notification
+2026-01-31 01:02:27,997 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_2
+2026-01-31 01:02:27,999 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,001 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+
+🎲 正在分配角色...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,003 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,004 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:28,005 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:28,006 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:28,007 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **游戏开始！**\n\n共有 **6** 名玩家参与\n👤 您: 玩家\n🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n\n🎲 正在分配角色...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '06914734-b615-4b61-87cf-cfdd573ad28d'}
+2026-01-31 01:02:28,009 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 6c7831d2-f2ef-498e-a3a1-4e3f9855ae65|thread.channel_message.notification
+2026-01-31 01:02:28,009 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_3
+2026-01-31 01:02:28,010 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,011 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+
+🎲 正在分配角色...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,094 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,095 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:28,096 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: BrightNode2303
+2026-01-31 01:02:28,097 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: BrightNode2303
+2026-01-31 01:02:28,097 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🎮 **游戏开始！**\n\n共有 **6** 名玩家参与\n👤 您: 玩家\n🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n\n🎲 正在分配角色...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '06914734-b615-4b61-87cf-cfdd573ad28d'}
+2026-01-31 01:02:28,100 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 0452b98c-f95d-45eb-a409-9591d34883fb|thread.channel_message.notification
+2026-01-31 01:02:28,100 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: BrightNode2303
+2026-01-31 01:02:28,101 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,102 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🎮 **游戏开始！**
+
+共有 **6** 名玩家参与
+👤 您: 玩家
+🤖 AI玩家: AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+
+🎲 正在分配角色...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,104 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,105 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent BrightNode2303
+2026-01-31 01:02:28,153 - openagents.mods.games.werewolf.game_state - INFO - Assigned 狼人 to 玩家
+2026-01-31 01:02:28,153 - openagents.mods.games.werewolf.game_state - INFO - Assigned 预言家 to AI-张三
+2026-01-31 01:02:28,154 - openagents.mods.games.werewolf.game_state - INFO - Assigned 村民 to AI-李四
+2026-01-31 01:02:28,155 - openagents.mods.games.werewolf.game_state - INFO - Assigned 村民 to AI-王五
+2026-01-31 01:02:28,156 - openagents.mods.games.werewolf.game_state - INFO - Assigned 女巫 to AI-赵六
+2026-01-31 01:02:28,157 - openagents.mods.games.werewolf.game_state - INFO - Assigned 狼人 to AI-钱七
+2026-01-31 01:02:28,158 - openagents.mods.games.werewolf.game_state - INFO - Game channel_werewolf-game started with 6 players
+2026-01-31 01:02:28,159 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 公开消息到 werewolf-game: 📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**...
+2026-01-31 01:02:28,160 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 19842df0-6f6f-4499-8284-3c6b710a9414|thread.channel_message.post
+2026-01-31 01:02:28,161 - openagents.mods.workspace.messaging.mod - INFO - Channel werewolf-game has agents: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,162 - openagents.mods.workspace.messaging.mod - INFO - Message sender: werewolf_host
+2026-01-31 01:02:28,163 - openagents.mods.workspace.messaging.mod - INFO - Agents to notify: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,164 - openagents.mods.workspace.messaging.mod - INFO - Broadcasting channel message to 6 agents in werewolf-game: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,166 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_4
+2026-01-31 01:02:28,166 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_4
+2026-01-31 01:02:28,167 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '📋 **角色分配完成！**\n\n本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1\n\n**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '19842df0-6f6f-4499-8284-3c6b710a9414'}
+2026-01-31 01:02:28,194 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 81ad42d3-c692-4c1b-96b2-5ade83fca880|thread.channel_message.notification
+2026-01-31 01:02:28,194 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_4
+2026-01-31 01:02:28,195 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,196 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,198 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,199 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:28,217 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:28,218 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:28,219 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '📋 **角色分配完成！**\n\n本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1\n\n**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '19842df0-6f6f-4499-8284-3c6b710a9414'}
+2026-01-31 01:02:28,222 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 2bf72257-2948-43f3-9e65-b41d6e998828|thread.channel_message.notification
+2026-01-31 01:02:28,222 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_1
+2026-01-31 01:02:28,223 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,224 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,226 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,227 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:28,228 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:28,229 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:28,230 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '📋 **角色分配完成！**\n\n本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1\n\n**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '19842df0-6f6f-4499-8284-3c6b710a9414'}
+2026-01-31 01:02:28,278 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: dad96468-fe7c-4bf5-a495-744712ca717a|thread.channel_message.notification
+2026-01-31 01:02:28,278 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_5
+2026-01-31 01:02:28,279 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,281 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,283 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,286 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:28,287 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:28,288 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:28,289 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '📋 **角色分配完成！**\n\n本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1\n\n**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '19842df0-6f6f-4499-8284-3c6b710a9414'}
+2026-01-31 01:02:28,293 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: f8c3244f-77ba-4ccf-84ef-6c81286708d7|thread.channel_message.notification
+2026-01-31 01:02:28,293 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_2
+2026-01-31 01:02:28,332 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,334 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,336 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,338 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:28,368 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:28,369 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:28,370 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '📋 **角色分配完成！**\n\n本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1\n\n**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '19842df0-6f6f-4499-8284-3c6b710a9414'}
+2026-01-31 01:02:28,374 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 825b8bcf-dacd-4528-b900-ff3a167a4647|thread.channel_message.notification
+2026-01-31 01:02:28,374 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_3
+2026-01-31 01:02:28,376 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,377 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,379 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,380 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:28,381 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: BrightNode2303
+2026-01-31 01:02:28,382 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: BrightNode2303
+2026-01-31 01:02:28,383 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '📋 **角色分配完成！**\n\n本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1\n\n**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '19842df0-6f6f-4499-8284-3c6b710a9414'}
+2026-01-31 01:02:28,386 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 1243ef80-ddcc-496b-84ce-ed8f85a9004d|thread.channel_message.notification
+2026-01-31 01:02:28,386 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: BrightNode2303
+2026-01-31 01:02:28,457 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,459 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '📋 **角色分配完成！**
+
+本局角色配置: 狼人x2, 预言家x1, 村民x2, 女巫x1
+
+**参与玩家**: 玩家, AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,460 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,461 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent BrightNode2303
+2026-01-31 01:02:28,462 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔒 玩家私信: 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家...
+2026-01-31 01:02:28,464 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: ff441d71-075f-4ef0-8954-1228526a9d25|thread.channel_message.post
+2026-01-31 01:02:28,464 - openagents.mods.workspace.messaging.mod - INFO - Channel werewolf-game has agents: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,496 - openagents.mods.workspace.messaging.mod - INFO - Message sender: werewolf_host
+2026-01-31 01:02:28,497 - openagents.mods.workspace.messaging.mod - INFO - Agents to notify: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,498 - openagents.mods.workspace.messaging.mod - INFO - Broadcasting channel message to 6 agents in werewolf-game: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,500 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_4
+2026-01-31 01:02:28,501 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_4
+2026-01-31 01:02:28,502 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🎭 你的角色是 **狼人**\n阵营: 🐺 狼人阵营\n技能: 每晚与其他狼人讨论并投票杀死一名玩家'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'ff441d71-075f-4ef0-8954-1228526a9d25'}
+2026-01-31 01:02:28,505 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 3d61e0f4-55f2-4d12-83bd-7fd066762dbb|thread.channel_message.notification
+2026-01-31 01:02:28,505 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_4
+2026-01-31 01:02:28,506 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,507 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家'
+2026-01-31 01:02:28,509 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,510 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:28,548 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:28,549 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:28,550 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🎭 你的角色是 **狼人**\n阵营: 🐺 狼人阵营\n技能: 每晚与其他狼人讨论并投票杀死一名玩家'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'ff441d71-075f-4ef0-8954-1228526a9d25'}
+2026-01-31 01:02:28,552 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: faecb72a-400f-44a4-b8a6-bd102b34ea27|thread.channel_message.notification
+2026-01-31 01:02:28,553 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_1
+2026-01-31 01:02:28,553 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,555 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家'
+2026-01-31 01:02:28,556 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,596 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:28,598 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:28,599 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:28,599 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🎭 你的角色是 **狼人**\n阵营: 🐺 狼人阵营\n技能: 每晚与其他狼人讨论并投票杀死一名玩家'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'ff441d71-075f-4ef0-8954-1228526a9d25'}
+2026-01-31 01:02:28,602 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: d94154a0-77f4-43c6-bb3b-f5dc6dd5e087|thread.channel_message.notification
+2026-01-31 01:02:28,602 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_5
+2026-01-31 01:02:28,603 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,629 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家'
+2026-01-31 01:02:28,631 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,632 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:28,633 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:28,634 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:28,636 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🎭 你的角色是 **狼人**\n阵营: 🐺 狼人阵营\n技能: 每晚与其他狼人讨论并投票杀死一名玩家'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'ff441d71-075f-4ef0-8954-1228526a9d25'}
+2026-01-31 01:02:28,638 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: df060f4b-3085-4ae2-b676-f1eb334b72bb|thread.channel_message.notification
+2026-01-31 01:02:28,639 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_2
+2026-01-31 01:02:28,640 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,641 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家'
+2026-01-31 01:02:28,643 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,644 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:28,645 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:28,646 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:28,647 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🎭 你的角色是 **狼人**\n阵营: 🐺 狼人阵营\n技能: 每晚与其他狼人讨论并投票杀死一名玩家'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'ff441d71-075f-4ef0-8954-1228526a9d25'}
+2026-01-31 01:02:28,650 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: c7c7577a-11f0-4507-aad7-4317a2852ab3|thread.channel_message.notification
+2026-01-31 01:02:28,650 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_3
+2026-01-31 01:02:28,718 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,719 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家'
+2026-01-31 01:02:28,721 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,722 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:28,723 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: BrightNode2303
+2026-01-31 01:02:28,724 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: BrightNode2303
+2026-01-31 01:02:28,725 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🎭 你的角色是 **狼人**\n阵营: 🐺 狼人阵营\n技能: 每晚与其他狼人讨论并投票杀死一名玩家'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'ff441d71-075f-4ef0-8954-1228526a9d25'}
+2026-01-31 01:02:28,727 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 7968e039-46c0-4e58-8042-8cb4ead10692|thread.channel_message.notification
+2026-01-31 01:02:28,727 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: BrightNode2303
+2026-01-31 01:02:28,767 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,768 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家'
+2026-01-31 01:02:28,770 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,771 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent BrightNode2303
+2026-01-31 01:02:28,772 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_1 <- 🎭 你的角色是 **预言家**
+阵营: 👥 好人阵营
+技能: 每晚可以查验一名玩家的身份...
+2026-01-31 01:02:28,773 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: d06ae0e1-2afb-4592-bd1d-bde58a956d5c|thread.direct_message.send
+2026-01-31 01:02:28,773 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_1
+2026-01-31 01:02:28,774 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 06506d3a-769f-4e55-aee1-50869a5ed3cb|thread.direct_message.notification
+2026-01-31 01:02:28,775 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_1
+2026-01-31 01:02:28,818 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_1
+2026-01-31 01:02:28,819 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_2 <- 🎭 你的角色是 **村民**
+阵营: 👥 好人阵营
+技能: 普通村民，没有特殊能力...
+2026-01-31 01:02:28,821 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: d8925cb5-7f11-46c2-a2e6-c6d5ff5ef9c9|thread.direct_message.send
+2026-01-31 01:02:28,822 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_2
+2026-01-31 01:02:28,823 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 6835b3df-c2b2-4122-bec5-38351b446c01|thread.direct_message.notification
+2026-01-31 01:02:28,823 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_2
+2026-01-31 01:02:28,824 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_2
+2026-01-31 01:02:28,825 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_3 <- 🎭 你的角色是 **村民**
+阵营: 👥 好人阵营
+技能: 普通村民，没有特殊能力...
+2026-01-31 01:02:28,826 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 4758e785-76c9-4689-b59d-b71884836f38|thread.direct_message.send
+2026-01-31 01:02:28,826 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_3
+2026-01-31 01:02:28,827 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: f5aad29c-d9a1-49ff-8736-8b09509f0f5b|thread.direct_message.notification
+2026-01-31 01:02:28,827 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_3
+2026-01-31 01:02:28,829 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_3
+2026-01-31 01:02:28,829 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_4 <- 🎭 你的角色是 **女巫**
+阵营: 👥 好人阵营
+技能: 拥有解药和毒药各一瓶...
+2026-01-31 01:02:28,831 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: b3e997ae-8c20-44df-986d-fe544cd49768|thread.direct_message.send
+2026-01-31 01:02:28,831 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_4
+2026-01-31 01:02:28,832 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 2006582c-50b6-482d-a660-ae879b725f2c|thread.direct_message.notification
+2026-01-31 01:02:28,832 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_4
+2026-01-31 01:02:28,833 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_4
+2026-01-31 01:02:28,834 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_5 <- 🎭 你的角色是 **狼人**
+阵营: 🐺 狼人阵营
+技能: 每晚与其他狼人讨论并投票杀死一名玩家...
+2026-01-31 01:02:28,836 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 085c5761-2d8b-499c-ac3b-51336bd18c7d|thread.direct_message.send
+2026-01-31 01:02:28,836 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_5
+2026-01-31 01:02:28,948 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 15cee35a-3405-4957-af46-3dd6be6ab902|thread.direct_message.notification
+2026-01-31 01:02:28,949 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_5
+2026-01-31 01:02:28,950 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_5
+2026-01-31 01:02:28,951 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 公开消息到 werewolf-game: 🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━...
+2026-01-31 01:02:28,953 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: dd3e0d2b-d51f-4996-8ea6-d20aec50cc33|thread.channel_message.post
+2026-01-31 01:02:28,953 - openagents.mods.workspace.messaging.mod - INFO - Channel werewolf-game has agents: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,954 - openagents.mods.workspace.messaging.mod - INFO - Message sender: werewolf_host
+2026-01-31 01:02:28,955 - openagents.mods.workspace.messaging.mod - INFO - Agents to notify: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,956 - openagents.mods.workspace.messaging.mod - INFO - Broadcasting channel message to 6 agents in werewolf-game: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:28,958 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_4
+2026-01-31 01:02:28,959 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_4
+2026-01-31 01:02:28,960 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🌙 **第 1 夜降临**\n\n天黑请闭眼...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'dd3e0d2b-d51f-4996-8ea6-d20aec50cc33'}
+2026-01-31 01:02:28,986 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: c40a2c1c-1989-47f6-91a2-d86133570f26|thread.channel_message.notification
+2026-01-31 01:02:28,986 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_4
+2026-01-31 01:02:28,987 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,988 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:28,990 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:28,991 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:28,992 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:28,993 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:28,994 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🌙 **第 1 夜降临**\n\n天黑请闭眼...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'dd3e0d2b-d51f-4996-8ea6-d20aec50cc33'}
+2026-01-31 01:02:28,996 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 4a64ab87-81b2-4e9e-add8-cea962059c6f|thread.channel_message.notification
+2026-01-31 01:02:28,996 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_1
+2026-01-31 01:02:28,997 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:28,998 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:29,000 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,001 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:29,002 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:29,003 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:29,004 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🌙 **第 1 夜降临**\n\n天黑请闭眼...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'dd3e0d2b-d51f-4996-8ea6-d20aec50cc33'}
+2026-01-31 01:02:29,006 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 615acb28-b143-40f4-a9e4-4642cd3a0087|thread.channel_message.notification
+2026-01-31 01:02:29,006 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_5
+2026-01-31 01:02:29,007 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,008 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:29,063 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,064 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:29,065 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:29,066 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:29,067 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🌙 **第 1 夜降临**\n\n天黑请闭眼...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'dd3e0d2b-d51f-4996-8ea6-d20aec50cc33'}
+2026-01-31 01:02:29,069 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: f01f0886-e7e7-4795-a3ec-baab0268646d|thread.channel_message.notification
+2026-01-31 01:02:29,069 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_2
+2026-01-31 01:02:29,071 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,096 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:29,098 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,099 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:29,100 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:29,101 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:29,102 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🌙 **第 1 夜降临**\n\n天黑请闭眼...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'dd3e0d2b-d51f-4996-8ea6-d20aec50cc33'}
+2026-01-31 01:02:29,104 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 831edf23-6f55-40ce-90ea-7ce17b31cbb1|thread.channel_message.notification
+2026-01-31 01:02:29,104 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_3
+2026-01-31 01:02:29,105 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,106 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:29,108 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,109 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:29,110 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: BrightNode2303
+2026-01-31 01:02:29,110 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: BrightNode2303
+2026-01-31 01:02:29,111 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🌙 **第 1 夜降临**\n\n天黑请闭眼...\n━━━━━━━━━━━━━━━━━━━━'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': 'dd3e0d2b-d51f-4996-8ea6-d20aec50cc33'}
+2026-01-31 01:02:29,113 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: d4ec35fc-d779-40dd-8331-ae9362f72097|thread.channel_message.notification
+2026-01-31 01:02:29,113 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: BrightNode2303
+2026-01-31 01:02:29,114 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,116 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🌙 **第 1 夜降临**
+
+天黑请闭眼...
+━━━━━━━━━━━━━━━━━━━━'
+2026-01-31 01:02:29,117 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,164 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent BrightNode2303
+2026-01-31 01:02:29,166 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔒 玩家私信: 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三...
+2026-01-31 01:02:29,168 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 2c0bdf4d-92ba-4a17-9876-574678f37108|thread.channel_message.post
+2026-01-31 01:02:29,168 - openagents.mods.workspace.messaging.mod - INFO - Channel werewolf-game has agents: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:29,169 - openagents.mods.workspace.messaging.mod - INFO - Message sender: werewolf_host
+2026-01-31 01:02:29,170 - openagents.mods.workspace.messaging.mod - INFO - Agents to notify: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:29,171 - openagents.mods.workspace.messaging.mod - INFO - Broadcasting channel message to 6 agents in werewolf-game: {'ai_player_4', 'ai_player_1', 'ai_player_5', 'ai_player_2', 'ai_player_3', 'BrightNode2303'}
+2026-01-31 01:02:29,172 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_4
+2026-01-31 01:02:29,173 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_4
+2026-01-31 01:02:29,174 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🌙 轮到你行动了\n\n🌙 夜晚降临，你是狼人。\n你的狼人队友是：AI-钱七\n存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n请与其他狼人讨论并投票选择要杀死的玩家。\n\n请回复你的选择。'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '2c0bdf4d-92ba-4a17-9876-574678f37108'}
+2026-01-31 01:02:29,177 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 65b3caae-f79f-42f0-a90e-aab31e2f321d|thread.channel_message.notification
+2026-01-31 01:02:29,177 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_4
+2026-01-31 01:02:29,178 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,179 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+请与其他狼人讨论并投票选择要杀死的玩家。
+
+请回复你的选择。'
+2026-01-31 01:02:29,228 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,230 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:29,231 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:29,232 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:29,233 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🌙 轮到你行动了\n\n🌙 夜晚降临，你是狼人。\n你的狼人队友是：AI-钱七\n存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n请与其他狼人讨论并投票选择要杀死的玩家。\n\n请回复你的选择。'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '2c0bdf4d-92ba-4a17-9876-574678f37108'}
+2026-01-31 01:02:29,235 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 7ffe8755-8d80-4cb3-a208-e98e0b9de891|thread.channel_message.notification
+2026-01-31 01:02:29,235 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_1
+2026-01-31 01:02:29,236 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,237 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+请与其他狼人讨论并投票选择要杀死的玩家。
+
+请回复你的选择。'
+2026-01-31 01:02:29,239 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,240 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:29,241 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:29,242 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:29,296 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🌙 轮到你行动了\n\n🌙 夜晚降临，你是狼人。\n你的狼人队友是：AI-钱七\n存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n请与其他狼人讨论并投票选择要杀死的玩家。\n\n请回复你的选择。'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '2c0bdf4d-92ba-4a17-9876-574678f37108'}
+2026-01-31 01:02:29,300 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 0b6f4076-eb3e-4df7-ac18-d40288981a42|thread.channel_message.notification
+2026-01-31 01:02:29,300 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_5
+2026-01-31 01:02:29,301 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,302 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+请与其他狼人讨论并投票选择要杀死的玩家。
+
+请回复你的选择。'
+2026-01-31 01:02:29,304 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,305 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:29,306 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:29,340 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:29,341 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🌙 轮到你行动了\n\n🌙 夜晚降临，你是狼人。\n你的狼人队友是：AI-钱七\n存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n请与其他狼人讨论并投票选择要杀死的玩家。\n\n请回复你的选择。'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '2c0bdf4d-92ba-4a17-9876-574678f37108'}
+2026-01-31 01:02:29,343 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: b70e89d0-3fef-459f-af62-90733a2075d3|thread.channel_message.notification
+2026-01-31 01:02:29,343 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_2
+2026-01-31 01:02:29,344 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,346 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+请与其他狼人讨论并投票选择要杀死的玩家。
+
+请回复你的选择。'
+2026-01-31 01:02:29,348 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,349 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:29,350 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:29,351 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:29,351 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🌙 轮到你行动了\n\n🌙 夜晚降临，你是狼人。\n你的狼人队友是：AI-钱七\n存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n请与其他狼人讨论并投票选择要杀死的玩家。\n\n请回复你的选择。'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '2c0bdf4d-92ba-4a17-9876-574678f37108'}
+2026-01-31 01:02:29,408 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: fa1148e0-c101-40bb-b777-a619663e898f|thread.channel_message.notification
+2026-01-31 01:02:29,409 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: ai_player_3
+2026-01-31 01:02:29,410 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,411 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+请与其他狼人讨论并投票选择要杀死的玩家。
+
+请回复你的选择。'
+2026-01-31 01:02:29,414 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,414 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:29,415 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: BrightNode2303
+2026-01-31 01:02:29,416 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: BrightNode2303
+2026-01-31 01:02:29,448 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '🔒 **[私信给你]** 🌙 轮到你行动了\n\n🌙 夜晚降临，你是狼人。\n你的狼人队友是：AI-钱七\n存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七\n请与其他狼人讨论并投票选择要杀死的玩家。\n\n请回复你的选择。'}, 'message_type': 'channel_message', 'sender_name': '🎮 主持人', 'is_system_message': True, 'original_event_id': '2c0bdf4d-92ba-4a17-9876-574678f37108'}
+2026-01-31 01:02:29,451 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 65673b7c-55c4-48db-8ca6-925b182cae46|thread.channel_message.notification
+2026-01-31 01:02:29,451 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: werewolf_host, dest: BrightNode2303
+2026-01-31 01:02:29,452 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,453 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '🔒 **[私信给你]** 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：AI-钱七
+存活的其他玩家：AI-张三, AI-李四, AI-王五, AI-赵六, AI-钱七
+请与其他狼人讨论并投票选择要杀死的玩家。
+
+请回复你的选择。'
+2026-01-31 01:02:29,455 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 系统或主持人消息
+2026-01-31 01:02:29,456 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent BrightNode2303
+2026-01-31 01:02:29,457 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_1 <- 🌙 轮到你行动了
+
+🔮 夜晚降临，你是预言家。
+存活的其他玩家：玩家, AI-李四, AI-王五, ...
+2026-01-31 01:02:29,459 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 1ba32ba9-05d7-4bbe-ae23-4b11df50a31e|thread.direct_message.send
+2026-01-31 01:02:29,459 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_1
+2026-01-31 01:02:29,460 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: f7d23414-31c5-4d33-a128-1ba76914bfd5|thread.direct_message.notification
+2026-01-31 01:02:29,460 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_1
+2026-01-31 01:02:29,461 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_1
+2026-01-31 01:02:29,462 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_2 <- 🌙 你是 村民，没有夜晚技能。请等待天亮......
+2026-01-31 01:02:29,523 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: aa699725-54a8-4f68-842b-c763c0ebfb7e|thread.direct_message.send
+2026-01-31 01:02:29,523 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_2
+2026-01-31 01:02:29,524 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 090b3f73-f048-4e8e-b397-aa68867a4352|thread.direct_message.notification
+2026-01-31 01:02:29,525 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_2
+2026-01-31 01:02:29,526 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_2
+2026-01-31 01:02:29,527 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_3 <- 🌙 你是 村民，没有夜晚技能。请等待天亮......
+2026-01-31 01:02:29,528 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 893cfc20-4a73-44e1-801e-9aa5e3facc9f|thread.direct_message.send
+2026-01-31 01:02:29,528 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_3
+2026-01-31 01:02:29,529 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: a2bd3085-61b3-45e4-b35e-40d385dc2abf|thread.direct_message.notification
+2026-01-31 01:02:29,529 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_3
+2026-01-31 01:02:29,530 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_3
+2026-01-31 01:02:29,531 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_4 <- 🌙 轮到你行动了
+
+🧪 夜晚降临，你是女巫。
+今晚没有人被狼人杀死。
+你可以使用毒药毒死一名玩家。存...
+2026-01-31 01:02:29,533 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: b040ae8b-fae7-4097-a837-c4777846f8ce|thread.direct_message.send
+2026-01-31 01:02:29,533 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_4
+2026-01-31 01:02:29,534 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: ca23fa92-c338-44ed-9000-468f47fe6894|thread.direct_message.notification
+2026-01-31 01:02:29,534 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_4
+2026-01-31 01:02:29,535 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_4
+2026-01-31 01:02:29,536 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📤 向 AI 发送私信: ai_player_5 <- 🌙 轮到你行动了
+
+🌙 夜晚降临，你是狼人。
+你的狼人队友是：玩家
+存活的其他玩家：玩家, AI-张...
+2026-01-31 01:02:29,538 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 509fd703-79ca-425c-98ee-439b787c6bef|thread.direct_message.send
+2026-01-31 01:02:29,538 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Processing direct message from werewolf_host to ai_player_5
+2026-01-31 01:02:29,539 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 6cfac19a-3482-47fe-ab93-126fc6723f2c|thread.direct_message.notification
+2026-01-31 01:02:29,539 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📨 收到消息 - event: thread.direct_message.notification, from: werewolf_host, to: ai_player_5
+2026-01-31 01:02:29,540 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent direct message notification to agent ai_player_5
+2026-01-31 01:02:29,624 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_4
+2026-01-31 01:02:29,625 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_1
+2026-01-31 01:02:29,626 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_1
+2026-01-31 01:02:29,627 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '开始游戏'}, 'message_type': 'channel_message', 'original_event_id': 'BrightNode2303_1769792547458_unzuw4475'}
+2026-01-31 01:02:29,629 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: b965868d-36e9-4010-bc69-80b0c999c9c6|thread.channel_message.notification
+2026-01-31 01:02:29,629 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: BrightNode2303, dest: ai_player_1
+2026-01-31 01:02:29,630 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,631 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '开始游戏'
+2026-01-31 01:02:29,632 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 消息已处理 BrightNode2303_1769792547458_unzuw4475
+2026-01-31 01:02:29,662 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_1
+2026-01-31 01:02:29,664 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_5
+2026-01-31 01:02:29,665 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_5
+2026-01-31 01:02:29,666 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '开始游戏'}, 'message_type': 'channel_message', 'original_event_id': 'BrightNode2303_1769792547458_unzuw4475'}
+2026-01-31 01:02:29,669 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: ef3fe912-e4f8-4785-bab0-930ee6d0912b|thread.channel_message.notification
+2026-01-31 01:02:29,670 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: BrightNode2303, dest: ai_player_5
+2026-01-31 01:02:29,672 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,674 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '开始游戏'
+2026-01-31 01:02:29,676 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 消息已处理 BrightNode2303_1769792547458_unzuw4475
+2026-01-31 01:02:29,677 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_5
+2026-01-31 01:02:29,678 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_2
+2026-01-31 01:02:29,679 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_2
+2026-01-31 01:02:29,680 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '开始游戏'}, 'message_type': 'channel_message', 'original_event_id': 'BrightNode2303_1769792547458_unzuw4475'}
+2026-01-31 01:02:29,720 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: 08cf797a-dbe8-4bbf-91be-0736e9fe9239|thread.channel_message.notification
+2026-01-31 01:02:29,720 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: BrightNode2303, dest: ai_player_2
+2026-01-31 01:02:29,721 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,723 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '开始游戏'
+2026-01-31 01:02:29,724 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 消息已处理 BrightNode2303_1769792547458_unzuw4475
+2026-01-31 01:02:29,725 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_2
+2026-01-31 01:02:29,725 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Creating notification for agent: ai_player_3
+2026-01-31 01:02:29,726 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification target_id will be: ai_player_3
+2026-01-31 01:02:29,743 - openagents.mods.workspace.messaging.mod - INFO - 🔧 THREAD MESSAGING: Notification content: {'channel': 'werewolf-game', 'content': {'text': '开始游戏'}, 'message_type': 'channel_message', 'original_event_id': 'BrightNode2303_1769792547458_unzuw4475'}
+2026-01-31 01:02:29,745 - openagents.core.event_gateway - INFO - 🔧 NETWORK: Processing regular event: b4d9fdb1-60d8-49bc-83c6-3583cb0eec11|thread.channel_message.notification
+2026-01-31 01:02:29,745 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 🔍 收到事件: thread.channel_message.notification, source: BrightNode2303, dest: ai_player_3
+2026-01-31 01:02:29,746 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📌 频道检查: channel='werewolf-game', game_channel='werewolf-game'
+2026-01-31 01:02:29,747 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] 📝 消息内容: '开始游戏'
+2026-01-31 01:02:29,748 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏭️ 跳过: 消息已处理 BrightNode2303_1769792547458_unzuw4475
+2026-01-31 01:02:29,750 - openagents.mods.workspace.messaging.mod - INFO - ✅ THREAD MESSAGING: Sent channel message notification to agent ai_player_3
+2026-01-31 01:02:29,751 - aiohttp.access - INFO - 127.0.0.1 [31/Jan/2026:01:02:27 +0800] "POST /api/send_event HTTP/1.1" 200 729 "http://localhost:8700/studio/messaging" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-01-31 01:02:29,753 - openagents.mods.games.werewolf.mod - INFO - [Werewolf] ⏰ 夜晚超时任务启动，30秒后结束第 1 夜
